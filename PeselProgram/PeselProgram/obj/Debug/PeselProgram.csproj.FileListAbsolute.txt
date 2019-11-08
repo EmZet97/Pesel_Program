@@ -1,0 +1,17 @@
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\bin\Debug\PeselProgram.exe.config
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\bin\Debug\PeselProgram.exe
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\bin\Debug\PeselProgram.pdb
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.csprojAssemblyReference.cache
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\MainWindow.g.cs
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\App.g.cs
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram_MarkupCompile.cache
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram_MarkupCompile.lref
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\MainWindow.baml
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.g.resources
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.Properties.Resources.resources
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.csproj.GenerateResource.cache
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.csproj.CoreCompileInputs.cache
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.exe
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\PeselProgram.pdb
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\GUI\MainPanel.g.cs
+D:\GitHub\Pesel_Program\PeselProgram\PeselProgram\obj\Debug\GUI\MainPanel.baml
