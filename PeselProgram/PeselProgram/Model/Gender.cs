@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PeselProgram
 {
-    class PeselParser
+    public enum Gender
     {
+        Male, Female, Unknown
     }
 }

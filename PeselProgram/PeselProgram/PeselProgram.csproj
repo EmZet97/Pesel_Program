@@ -67,7 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Gender.cs" />
+    <Compile Include="Model\Gender.cs" />
     <Compile Include="GUI\MainPanel.xaml.cs">
       <DependentUpon>MainPanel.xaml</DependentUpon>
     </Compile>
@@ -77,8 +77,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pesel.cs" />
-    <Compile Include="PeselParser.cs" />
+    <Compile Include="Model\Pesel.cs" />
+    <Compile Include="Model\PeselLotteryMachine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
