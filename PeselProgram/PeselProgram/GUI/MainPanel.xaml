@@ -10,7 +10,7 @@
 
     <StackPanel>
         <Label Content="Wpisz numer pesel:" FontSize="13" FontFamily="Arial" Foreground="White" HorizontalAlignment="Center" Margin="0 50 0 0"></Label>
-        <TextBox Name="PeselInputBox" Text="97021308031" FontSize="13" Padding="5px" Width="300px" Margin="0 10 0 30"></TextBox>
+        <TextBox Name="PeselInputBox" Text="" FontSize="13" Padding="5px" Width="300px" Margin="0 10 0 30" MaxLength="11" PreviewTextInput="PeselInputBox_PreviewTextInput" TextChanged="PeselInputBox_TextChanged"></TextBox>
 
         <Grid Margin="50px 0px 50px 0">
             <Grid.ColumnDefinitions>
@@ -47,17 +47,17 @@
                 <ColumnDefinition Width="2*"/>                
             </Grid.ColumnDefinitions>
             
-            <TextBox Name="PeselNumberBox1" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="1" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox2" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="2" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox3" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="3" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox4" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="4" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox5" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="5" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox6" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="6" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox7" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="8" Width="40px" Height="40px" IsEnabled="False"  Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox8" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="9" Width="40px" Height="40px" IsEnabled="False" Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox9" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="10" Width="40px" Height="40px" IsEnabled="False" Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox10" Foreground="Red" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="12" Width="40px" Height="40px" IsEnabled="False" Text="0"></TextBox>
-            <TextBox Name="PeselNumberBox11" Background="Green" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="14" Width="40px" Height="40px" IsEnabled="False" Text="0"></TextBox>
+            <TextBox Name="PeselNumberBox2" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="2" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox3" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="3" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox4" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="4" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox1" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="1" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox5" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="5" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox6" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="6" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox7" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="8" Width="40px" Height="40px" IsEnabled="False"  Text=""></TextBox>
+            <TextBox Name="PeselNumberBox8" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="9" Width="40px" Height="40px" IsEnabled="False" Text=""></TextBox>
+            <TextBox Name="PeselNumberBox9" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="10" Width="40px" Height="40px" IsEnabled="False" Text=""></TextBox>
+            <TextBox Name="PeselNumberBox10" Foreground="Red" Background="Gold" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="12" Width="40px" Height="40px" IsEnabled="False" Text=""></TextBox>
+            <TextBox Name="PeselNumberBox11" Background="Green" FontSize="16" FontWeight="Bold" Padding="13 8" HorizontalAlignment="Center" Grid.Column="14" Width="40px" Height="40px" IsEnabled="False" Text=""></TextBox>
             
         </Grid>
         <Grid Margin="50px 0px 50px 0">
@@ -76,8 +76,8 @@
             
         </Grid>
 
-        <Label Name="InfoLabel" Foreground="Red" Height="20px" Margin="0 40 0 0"></Label>
-        <Button Background="White" Name="CheckButton" Content="Sprawdź" Width="100" Height="40px" FontSize="14" FontWeight="Bold"></Button>
+        <Label Content="" Name="InfoLabel" Foreground="Red" Height="30px" HorizontalAlignment="Center" Margin="0 40 0 0"></Label>
+        <Button Background="White" Name="CheckButton" Content="Sprawdź" Width="100" Height="40px" FontSize="14" FontWeight="Bold" Click="CheckButton_Click"></Button>
         
         <Grid  Margin="0 40 0 0">
             <Grid.ColumnDefinitions>
@@ -93,10 +93,10 @@
                 <Label Foreground="White" Content="Poprawność sumy kontrolnej:" HorizontalAlignment="Right"></Label>
             </StackPanel>
             <StackPanel Grid.Column="2">
-                <Label Name="FinalPeselTextBox" Foreground="White" Content="xxxxxxxxxxx" HorizontalAlignment="Left"></Label>
-                <Label Name="FinalBirthDayTextBox" Foreground="White" Content="xx.xx.xxxx" HorizontalAlignment="Left"></Label>
-                <Label Name="FinalGenderTexBox" Foreground="White" Content="mk" HorizontalAlignment="Left"></Label>
-                <Label Name="FinalCheckSumTextBox" Foreground="White" Content="Tak, nie" HorizontalAlignment="Left"></Label>
+                <Label Name="FinalPeselTextBox" Foreground="White" Content="" HorizontalAlignment="Left"></Label>
+                <Label Name="FinalBirthDayTextBox" Foreground="White" Content="" HorizontalAlignment="Left"></Label>
+                <Label Name="FinalGenderTexBox" Foreground="White" Content="" HorizontalAlignment="Left"></Label>
+                <Label Name="FinalCheckSumTextBox" Foreground="White" Content="" HorizontalAlignment="Left"></Label>
             </StackPanel>
         </Grid>
 

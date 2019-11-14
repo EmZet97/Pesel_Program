@@ -67,6 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Model\BirthDate.cs" />
     <Compile Include="Model\Gender.cs" />
     <Compile Include="GUI\MainPanel.xaml.cs">
       <DependentUpon>MainPanel.xaml</DependentUpon>

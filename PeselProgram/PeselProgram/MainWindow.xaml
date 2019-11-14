@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PeselProgram"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="700"
-        Background="#333">
+        Title="MainWindow" Height="599" Width="700"
+        Background="#333" ResizeMode="NoResize">
     <Border Padding="10">
         <StackPanel>
             <Frame Name="PanelsFrame"></Frame>
