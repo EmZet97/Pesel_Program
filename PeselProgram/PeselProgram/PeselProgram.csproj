@@ -79,7 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Pesel.cs" />
-    <Compile Include="Model\PeselLotteryMachine.cs" />
+    <Compile Include="Model\PeselDataReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

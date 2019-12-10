@@ -18,12 +18,11 @@
                 <ColumnDefinition Width="24*"></ColumnDefinition>
                 <ColumnDefinition Width="2*"></ColumnDefinition>
                 <ColumnDefinition Width="18*"></ColumnDefinition>
+                <ColumnDefinition Width="6*"></ColumnDefinition>
                 <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="4*"></ColumnDefinition>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Label FontSize="13" FontWeight="Black" Content="Numer seryjny" Foreground="Gold" HorizontalAlignment="Center" Grid.Column="3"></Label>
-            <Label FontSize="13" FontWeight="Black" Content="Suma" Foreground="Green" HorizontalAlignment="Center" Grid.Column="5"></Label>
+            <Label FontSize="13" FontWeight="Black" Content="Suma" Foreground="Green" HorizontalAlignment="Center" Grid.Column="4"></Label>
 
         </Grid>
 

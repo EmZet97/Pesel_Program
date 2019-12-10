@@ -21,7 +21,7 @@ namespace PeselProgram.GUI
     /// </summary>
     public partial class MainPanel : Page
     {
-        List<TextBox> peselBoxes;
+        readonly List<TextBox> peselBoxes;
         public MainPanel()
         {
             InitializeComponent();
@@ -61,6 +61,7 @@ namespace PeselProgram.GUI
                     peselBoxes[i].Text = text[i].ToString();
                 }
             }
+            PeselInputBox.Text = PeselInputBox.Text.Replace(" ", "");
         }
 
         private void PeselInputBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
@@ -103,7 +104,7 @@ namespace PeselProgram.GUI
             {
                 InfoLabel.Content = "Niepoprawna data urodzenia";
                 FinalPeselTextBox.Content = text;
-                FinalBirthDayTextBox.Content = "Incorrect";
+                FinalBirthDayTextBox.Content = "Niepoprawna";
                 FinalGenderTexBox.Content = "";
                 FinalCheckSumTextBox.Content = "";
                 return;
@@ -114,8 +115,19 @@ namespace PeselProgram.GUI
 
             FinalPeselTextBox.Content = text;
             FinalBirthDayTextBox.Content = pesel.GetBirthDate().ToString();
-            FinalGenderTexBox.Content = pesel.GetGender().ToString();
-            FinalCheckSumTextBox.Content = pesel.IsChecksumCorrect.ToString();
+            string gender = "Nieznana";
+            switch (pesel.GetGender())
+            {
+                case Gender.Female:
+                    gender = "Kobieta";
+                    break;
+                case Gender.Male:
+                    gender = "Mężczyzna";
+                    break;
+            }
+            FinalGenderTexBox.Content = gender;
+
+            FinalCheckSumTextBox.Content = pesel.IsChecksumCorrect? "Poprawna" : "Niepoprawna";
         }
     }
 }

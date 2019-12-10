@@ -24,7 +24,7 @@ namespace PeselProgram.Model
             Year = 1900;
         }
 
-        public string GetStringDate()
+        override public string ToString()
         {
             string day = Day < 10 ? "0" + Day : Day.ToString();
             string month = Month < 10 ? "0" + Month : Month.ToString();
