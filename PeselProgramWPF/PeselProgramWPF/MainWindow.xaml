@@ -1,0 +1,15 @@
+﻿<Window x:Class="PeselProgramWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PeselProgramWPF"
+        mc:Ignorable="d"
+        Title="Analizator numeru pesel" Height="600" Width="700"
+        Background="#333" ResizeMode="NoResize">
+    <Border Padding="10">
+        <StackPanel>
+            <Frame Name="PanelsFrame"></Frame>
+        </StackPanel>
+    </Border>
+</Window>

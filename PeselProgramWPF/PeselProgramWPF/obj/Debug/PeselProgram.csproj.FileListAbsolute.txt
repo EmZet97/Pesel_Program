@@ -1,0 +1,16 @@
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\bin\Debug\PeselProgramWPF.exe.config
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\bin\Debug\PeselProgramWPF.exe
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\bin\Debug\PeselProgramWPF.pdb
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\MainPanel.g.cs
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\MainWindow.g.cs
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\App.g.cs
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgramWPF_MarkupCompile.cache
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgramWPF_MarkupCompile.lref
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\MainPanel.baml
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\MainWindow.baml
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgramWPF.g.resources
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgramWPF.Properties.Resources.resources
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgram.csproj.GenerateResource.cache
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgram.csproj.CoreCompileInputs.cache
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgramWPF.exe
+D:\GitHub\PeselProgramWPF\PeselProgramWPF\PeselProgramWPF\obj\Debug\PeselProgramWPF.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeselProgram", "PeselProgramWPF\PeselProgram.csproj", "{AD907848-DE5E-4EBD-9EE0-368CEDC85D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeselProgram.UnitTests", "PeselProgram.UnitTests\PeselProgram.UnitTests.csproj", "{0C534F2E-B148-4D89-8DD1-DAF60FF218E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD907848-DE5E-4EBD-9EE0-368CEDC85D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD907848-DE5E-4EBD-9EE0-368CEDC85D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD907848-DE5E-4EBD-9EE0-368CEDC85D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD907848-DE5E-4EBD-9EE0-368CEDC85D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C534F2E-B148-4D89-8DD1-DAF60FF218E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C534F2E-B148-4D89-8DD1-DAF60FF218E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C534F2E-B148-4D89-8DD1-DAF60FF218E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C534F2E-B148-4D89-8DD1-DAF60FF218E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CB80FE7-895C-4087-88C8-E067DA048D2D}
+	EndGlobalSection
+EndGlobal
